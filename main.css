@@ -27,6 +27,8 @@ body {
     background-color: transparent;
     position: fixed;
     top: 0;
+    -webkit-backdrop-filter: blur(32px);
+    -moz-backdrop-filter: blur(32px);
     backdrop-filter: blur(32px);
     /*filter: blur(32px);*/
     width: 100%;
@@ -77,10 +79,12 @@ img {
 
 @keyframes colorize {
     0% {
+        -moz-filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
     100% {
+        -moz-filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
