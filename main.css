@@ -14,7 +14,7 @@ body {
 
 .main {
     background: white;
-    max-width: 800px;
+    max-width: 75%;
     padding: 2em;
     margin: 3em auto;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar div {
-    max-width: 860px;
+    max-width: 75%;
     margin: auto;
 }
 
@@ -49,6 +49,7 @@ body {
 
 .navbar a:hover {
     color:#121212;
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
