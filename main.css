@@ -1,10 +1,10 @@
 html {
-    background: darkseagreen;
+    background: #fffef8;
     -webkit-font-smoothing: antialiased;
 }
 
 body {
-    background: darkseagreen;
+    background: #fffef8;
     color: #545454;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -13,11 +13,10 @@ body {
 }
 
 .main {
-    margin: 30px;
     background: white;
     max-width: 800px;
-    padding: 2em 2em 4em;
-    margin: auto;
+    padding: 2em;
+    margin: 3em auto;
 }
 
 .navbar {
@@ -25,24 +24,31 @@ body {
     font-style: normal;
     overflow: hidden;
     background-color: transparent;
+    padding: 15px 0px;
     position: fixed;
+    text-align: right;
+    margin: 0 auto;
     top: 0;
     -webkit-backdrop-filter: blur(32px);
     -moz-backdrop-filter: blur(32px);
     backdrop-filter: blur(32px);
-    /*filter: blur(32px);*/
     width: 100%;
-    height: 3rem;
     z-index: 120;
 }
 
+.navbar div {
+    max-width: 860px;
+    margin: auto;
+}
+
 .navbar a {
-    float: right;
-    display: block;
     color: #545454;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 15px 15px 15px 0px;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    color:#121212;
 }
 
 h1, h2, h3, h4, h5, h6 {
