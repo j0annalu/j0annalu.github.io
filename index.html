@@ -10,22 +10,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      function menu() {
-        var x = document.getElementById("myNavbar");
-        if (x.className == "navbar") {
-          x.className += " responsive";
-        } else {
-          x.className = "navbar";
-        }
-      }
+    <script type="text/javascript" src="js/myScript.js">
     </script>
     <noscript>Your browser does not support JavaScript :(</noscript>
 
   </head>
   
   <body>  
-    
     <nav class="navbar" id="myNavbar">
       <div class="navDiv">
         <a href="index.html">Home</a>
@@ -33,24 +24,31 @@
         <a href="https://drive.google.com/file/d/1UEgNvffivnrMa7msnbLX8ERGGg6RuWPp/view?usp=sharing" target="_blank">Resume</a>
         <a href="misc.html">Misc</a>
         <a href="javascript:void(0);" class="icon" onclick="menu()">
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars" style="font-size: 20px"></i>
         </a>
       </div>
     </nav>
     
-    <div id="main">
-      <h1 id="intro" style="text-align: left;"> <strong>Joanna Lu</strong> is a UX/UI Designer based in San Francisco with a background in cognitive science and computer science. 
-      </h1>
+    <div class="main">
+      <div id="intro">
+        <img class="smiley" src="images/smiley-wink.gif">
+        <h1 id="myIntro"> <strong>Joanna Lu</strong> is a UX/UI designer based in San Francisco with a background in cognitive science and computer science. Currently a student designer at<a href="https://blink.ucsd.edu/technology/index.html">UC San Diego IT Services</a>.
+        </h1>
+      </div>
       <div class="row">
         <div class="column">
-          <img src="images/ig-shop.png" title="ig shop small">
+          <a href="ig-shop-small.html" id="ig">
+            <img src="images/ig-shop.png" title="ig shop small">
+          </a>
+        </div>
+        <div class="column">
           <img src="images/engage.png" title="en.gage">
         </div>
         <div class="column">
           <img src="images/ans-dry-cleaning.png" title="an's dry cleaning">	
-          <img src="images/incubax.png" title="incubax">
         </div>
       </div>
+      <img class="smileyMobile" src="images/smiley-wink.gif">
     </div>
   </body>
   
