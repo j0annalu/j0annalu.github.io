@@ -235,8 +235,15 @@ img {
   #myIntro {
     max-width: 100%;
   }
-  .respondents {
-    
+  .caseInfo {
+    display: block;
+  }
+  .sectionCol {
+    width: 100%;
+  }
+  .copyCol{
+    max-width: 100%;
+    margin-bottom: 10%;
   }
 }
 
