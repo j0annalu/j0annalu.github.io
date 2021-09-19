@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background: #fffef8;
-    color: darkgreen;
+    background: #fffef0;
+    color: #545454;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -64,47 +64,80 @@ body {
 
 .smiley {
   margin: auto;
+  max-width: 25%;
 }
 
-#myIntro {
+ #myIntro {
   max-width: 66%; 
   font-weight: 100;
 }
 
+.caseInfo {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caseInfo p {
+  text-align: justify;
+}
+
+.caseTime {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caseTime p {
+  margin: 0px 10px 0px 0px;
+  padding: 10px;
+}
+
+.sectionCol {
+  width: 20%;
+  margin-right: 10%;
+}
+
+.section {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+
+.copyCol {
+  max-width: 66%;
+}
+
 .tag {
   border: 0px solid;
-  padding: 8px;
-  border-radius: 15px;
+  border-radius: 25px;
   box-shadow: 5px 7px 10px rgb(150, 150, 150, .07);
-  background-color: white;
+  background-color: #FFFFFA;
   width: fit-content;
   width: -moz-filter-fit-content;
   width: -webkit-filter-fit-content;
   display: inline;
-  margin-right: 15px;
 }
 
-.row {
+.caseStudies {
   display: flex;
   flex-wrap: wrap;
   padding: 0 3px;
 }
 
 /* Create two equal columns that sits next to each other */
-.column {
+.caseStudy {
   flex: 30%;
   padding: 20px 10px;
 }
 
-.column a:hover{
-  margin-top: 10px;
-  box-shadow: 5px 7px 10px rgb(150, 150, 150, .07);
-}
-
-.column img {
+.caseStudy img {
   margin-top: 20px;
   vertical-align: middle;
+}
 
+.caseStudy img:hover {
+  box-shadow: 5px 5px 50px rgb(200, 200, 200, .1);
+  margin-top: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -157,14 +190,27 @@ img {
   display: none;
 }
 
+.respondents {
+  display:flex;
+}
+
+.respondents p {
+  text-align: center;
+  width: 33%;
+  margin: 0 1%;
+  border: 1px solid;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+}
+
 @media screen and (max-width: 600px) {
   .navbar {
     position: fixed;
-    padding: 15px 0px 40px;
+    padding: 15px 0px 50px;
   }
   .navbar a {
     display: none;
-    padding: 5% 5% 5% 0px;
+    padding: 5% 5% 5% 5%;
   }
   .navbar a.icon {
     position: absolute;
@@ -172,26 +218,25 @@ img {
     top: 0;
     display: block;
   }
-  .caseStudy {
-    width: 100%;
-  }
   #intro {
     float: none;
     max-width: 100%
   }
-  .column {
+  h1 {
+    font-size: 24px;
+  }
+  .caseStudy {
     flex: 100%;
     padding: 0px;
   }
   .smiley {
-    display: none;
+    display: block;
   }
   #myIntro {
     max-width: 100%;
   }
-  .smileyMobile {
-    display: block;
-    margin: auto;
+  .respondents {
+    
   }
 }
 
