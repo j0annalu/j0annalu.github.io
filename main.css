@@ -213,6 +213,20 @@ img {
   vertical-align: text-bottom;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutCol {
+  max-width: 49%;
+}
+
+.imgCol {
+  max-width: 40%;
+  margin:auto;
+}
+
 @media screen and (max-width: 600px) {
   .navbar {
     position: fixed;
