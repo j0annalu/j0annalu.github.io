@@ -262,6 +262,10 @@ img {
   .caseTags {
     display: block;
     margin-bottom: 40px;
+    
+  }
+  .tag {
+      margin: 0 8px 0 0;
   }
   .respondents p {
     text-align: center;
