@@ -11,15 +11,18 @@ body {
     margin: 0 auto;
 }
 
-
 .main {
     max-width: 90%;
-    padding: 2em;
-    margin: 3em auto;
+    padding: 1em;
+    margin: 3em auto 1em auto;
 }
 
 .main a {
   text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
 }
 
 .navbar {
@@ -131,13 +134,12 @@ body {
 .caseStudies {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3px;
+  padding: 0;
 }
 
-/* Create two equal columns that sits next to each other */
 .caseStudy {
-  flex: 30%;
-  padding: 20px 10px;
+  max-width: 30%;
+  padding: 0 5% 0 0;
 }
 
 .caseStudy img {
@@ -158,6 +160,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     margin-top: 1.3em;
+}
+
+i {
+  color: #545454;
 }
 
 a {
@@ -214,6 +220,7 @@ img {
 }
 
 .row {
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -223,8 +230,8 @@ img {
 }
 
 .imgCol {
-  max-width: 40%;
-  margin:auto;
+  margin: 0px auto;
+  max-width: 30%;
 }
 
 @media screen and (max-width: 600px) {
@@ -250,7 +257,7 @@ img {
     font-size: 24px;
   }
   .caseStudy {
-    flex: 100%;
+    max-width: 100%;
     padding: 0px;
   }
   .smiley {
@@ -282,6 +289,12 @@ img {
   }
   .respondents p {
     text-align: center;
+  }
+  .aboutCol {
+    max-width: 100%;
+  }
+  .imgCol {
+    max-width: 80%;
   }
 }
 
