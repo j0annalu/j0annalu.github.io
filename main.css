@@ -67,7 +67,7 @@ body {
 
 .smiley {
   margin: auto;
-  max-width: 25%;
+  max-width: 200px;
 }
 
  #myIntro {
@@ -262,6 +262,7 @@ img {
   }
   .smiley {
     display: block;
+    max-width: 150px;
   }
   #myIntro {
     max-width: 100%;
