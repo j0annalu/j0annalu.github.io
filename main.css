@@ -85,6 +85,10 @@ body {
   text-align: justify;
 }
 
+.caseInfo h2 {
+  font-weight: 400;
+}
+
 .caseTags {
   display: flex;
   margin-bottom: 15px;
