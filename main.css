@@ -87,6 +87,7 @@ body {
 
 .caseInfo h2 {
   font-weight: 400;
+  font-family: 'Chivo', sans-serif;
 }
 
 .caseTags {
@@ -135,6 +136,25 @@ body {
   max-height: 20px;
 }
 
+.userPersona {
+  box-shadow: 5px 5px 5px rgb(220, 220, 220, .07);
+}
+
+.protoRow {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textCol {
+  max-width: 50%;
+  margin: auto;
+}
+
+.protoCol {
+  max-width: 45%;
+  margin: 0px;
+}
 .caseStudies {
   display: flex;
   flex-wrap: wrap;
