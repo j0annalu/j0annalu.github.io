@@ -270,7 +270,7 @@ img {
 }
 
 .currentCol {
-  margin: 20px 0 0px;
+  margin: 20px auto 0px auto;
 }
 
 .currentImage {
@@ -293,6 +293,32 @@ img {
 
 #myFooter p{
   margin: 0 5%;
+}
+
+.miscRow {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.miscCol {
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+
+.miscCol img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .miscCol {
+    flex: 47%;
+    max-width: 47%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -365,12 +391,11 @@ img {
     max-width: 100%;
     margin: 0px auto 20px;
   }
-  .currentImage {
+
+
+  .miscCol {
+    flex: 100%;
     max-width: 100%;
-    overflow: hidden;
-  }
-  .currentCol {
-    margin: 20px auto 0px auto;
   }
 
 }
