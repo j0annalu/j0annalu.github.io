@@ -14,7 +14,7 @@ body {
 .main {
     max-width: 90%;
     padding: 1em;
-    margin: 3em auto 1em auto;
+    margin: 1em auto 0 auto;
 }
 
 .main a {
@@ -75,7 +75,7 @@ body {
  #myIntro {
   max-width: 65%; 
   font-weight: 100;
-   margin: 0px;
+   margin-bottom: 10px;
 }
 
 .caseInfo {
@@ -164,8 +164,8 @@ body {
 }
 
 .caseStudy {
-  max-width: 30%;
-  padding: 0 5% 0 0;
+  max-width: 28%;
+  padding: 0 8% 0 0;
 }
 
 .caseStudy img {
@@ -286,9 +286,9 @@ img {
 }
 
 #myFooter {
-  padding: 20px 0px;
   position: relative;
   display:grid;
+  margin: 20px 0px;
 }
 
 #myFooter p{
