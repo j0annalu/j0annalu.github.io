@@ -168,6 +168,10 @@ body {
   max-width: 45%;
   margin: 0px;
 }
+
+.protoCol img {
+  border-radius: 40px;
+}
 .caseStudies {
   display: flex;
   flex-wrap: wrap;
