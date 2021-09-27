@@ -25,6 +25,13 @@ body {
   text-decoration: underline;
 }
 
+.case-study-main {
+    max-width: 70%;
+    padding: 1em;
+    margin: 1em auto 0 auto;
+}
+
+
 .navbar {
     font-family: chivo;
     font-weight: 400;
@@ -103,7 +110,7 @@ body {
 }
 
 .sectionCol {
-  width: 23%;
+  width: 25%;
   margin-right: 10%;
 }
 
@@ -113,7 +120,7 @@ body {
 }
 
 .copyCol {
-  max-width: 66%;
+  max-width: 64%;
 }
 
 .copyCol img {
@@ -146,6 +153,10 @@ body {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.protoRow p {
+  text-align: left;
 }
 
 .textCol {
@@ -319,9 +330,22 @@ img {
     flex: 47%;
     max-width: 47%;
   }
+    .case-study-main {
+    max-width: 90%;
+    padding: 1em;
+    margin: 1em auto 0 auto;
+  }
+    .caseInfo p {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .case-study-main {
+    max-width: 90%;
+    padding: 1em;
+    margin: 1em auto 0 auto;
+  }
   .navbar {
     position: fixed;
     padding: 15px 0px 45px 0px;
