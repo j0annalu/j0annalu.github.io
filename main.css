@@ -19,11 +19,13 @@ body {
 
 .main a {
   text-decoration: none;
+  font-family: Chivo;
+  font-style: italic;
 }
 
 .main a:hover {
   color: #fffef0;
-  background-color: #0083e8;
+  background-color: #0707ff;
 }
 
 .case-study-main {
@@ -214,7 +216,7 @@ i {
 }
 
 a {
-    color: #0083e8;
+    color: #0707ff;
 }
 
 b, strong {
