@@ -22,7 +22,8 @@ body {
 }
 
 .main a:hover {
-  text-decoration: underline;
+  color: #fffef0;
+  background-color: #0083e8;
 }
 
 .case-study-main {
@@ -59,11 +60,12 @@ body {
     color: #545454;
     margin: 20px 0px 20px 20px;
     text-decoration: none;
+    padding: 5px;
 }
 
 .navbar a:hover, .current {
-    color:#121212;
-    text-decoration: underline;
+    color: #fffef0;
+    background-color: #545454;
 }
 
 #intro {
@@ -360,12 +362,18 @@ img {
   .navbar a {
     display: none;
   }
+  .navbar a:hover {
+    background: none;
+    color: #545454;
+    text-decoration: underline;
+  }
   .navbar a.icon {
     position: absolute;
     right: 0;
     top: 0;
     display: block;
     padding-right: 5%;
+    background: none;
   }
   #intro {
     float: none;
