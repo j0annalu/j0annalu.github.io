@@ -333,8 +333,8 @@ img {
 
 @media screen and (max-width: 800px) {
     .miscCol {
-    flex: 47%;
-    max-width: 47%;
+    flex: 100%;
+    max-width: 100%;
   }
     .case-study-main {
     max-width: 90%;
