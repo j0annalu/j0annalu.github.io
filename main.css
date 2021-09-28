@@ -272,14 +272,14 @@ img {
 }
 
 .aboutCol {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0px auto;
 }
 
 .imgCol {
   float: left;
   margin: 0 40px 20px 0;
-  max-width: 30%;
+  max-width: 35%;
 }
 
 .aboutCol h2 {
@@ -459,3 +459,5 @@ img {
     margin: 40px 0 0 0;
   }
 }
+
+
