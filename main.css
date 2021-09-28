@@ -342,6 +342,9 @@ img {
     .caseInfo p {
     text-align: left;
   }
+  .protoCol img {
+  border-radius: 35px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -419,7 +422,9 @@ img {
     max-width: 100%;
     margin: 0px auto 20px;
   }
-
+  .protoCol img {
+    border-radius: 30px;
+  }
 
   .miscCol {
     flex: 100%;
