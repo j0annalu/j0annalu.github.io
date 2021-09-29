@@ -341,7 +341,7 @@ img {
     flex: 100%;
     max-width: 100%;
   }
-    .case-study-main {
+    .case-study-main, #more{
     max-width: 90%;
     padding: 1em;
     margin: 1em auto 0 auto;
@@ -358,7 +358,7 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  .case-study-main {
+  .case-study-main, #more{
     max-width: 90%;
     padding: 1em;
     margin: 1em auto 0 auto;
