@@ -344,6 +344,9 @@ img {
     .caseInfo p {
     text-align: left;
   }
+  .respondents p {
+    text-align: center;
+  }
   .protoCol img {
   border-radius: 35px;
   }
