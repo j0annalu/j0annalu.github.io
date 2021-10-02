@@ -107,12 +107,12 @@ body {
 
 .caseTags p {
   padding: 10px;
-  font-size: 14px;
 }
 
 .sectionCol {
   width: 25%;
   margin-right: 10%;
+  margin-top: 0px;
 }
 
 .section {
@@ -122,6 +122,10 @@ body {
 
 .copyCol {
   max-width: 64%;
+}
+
+.copyCol p {
+  margin-top: 24px;
 }
 
 .copyCol img {
@@ -308,16 +312,14 @@ img {
 #myFooter {
   position: relative;
   display:grid;
-  margin: 20px 0px;
+  max-width: 90%;
+  padding: 1em;
+  margin: 1.5em auto 0 auto;
 }
 
 #more h3 {
   font-weight: 300;
   margin-top: 0;
-}
-
-#myFooter p{
-  margin: 0 5%;
 }
 
 .miscRow {
@@ -363,6 +365,13 @@ img {
   }
   .protoCol img {
   border-radius: 35px;
+  }
+  .caseStudy {
+    max-width: 100%;
+    padding: 0px;
+  }
+  #myIntro {
+    font-size: 24px;
   }
 }
 
