@@ -30,7 +30,7 @@ body {
 }
 
 .case-study-main, #more {
-    max-width: 70%;
+    max-width: 600px;
     padding: 1em;
     margin: 1em auto 0 auto;
 }
@@ -90,6 +90,7 @@ body {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin: 40px 0;
 }
 
 .caseInfo p {
@@ -102,17 +103,12 @@ body {
 
 .caseTags {
   display: flex;
-  margin-bottom: 15px;
 }
 
-.caseTags p {
-  padding: 10px;
-}
+
 
 .sectionCol {
-  width: 25%;
-  margin-right: 10%;
-  margin-top: 0px;
+  width: 100%;
 }
 
 .section {
@@ -121,7 +117,7 @@ body {
 }
 
 .copyCol {
-  max-width: 64%;
+  max-width: 100%;
 }
 
 .copyCol p {
@@ -133,14 +129,18 @@ body {
   margin: 20px 0px;
 }
 
+#role {
+  width: 80%;
+}
+
 .tagCol {
   display: flex;
 }
 
 .tag {
   border: 0px solid;
-  margin: 0 15px 0 0;
-  padding: 20px;
+  margin: 0 0px 10px 0;
+  padding: 10px;
   border-radius: 25px;
   box-shadow: 5px 7px 10px rgb(150, 150, 150, .07);
   background-color: #fff;
@@ -286,7 +286,7 @@ img {
 .imgCol {
   float: left;
   margin: 0 40px 20px 0;
-  max-width: 30%;
+  max-width: 40%;
 }
 
 .aboutCol h2 {
@@ -366,8 +366,8 @@ img {
   border-radius: 35px;
   }
   .caseStudy {
-    max-width: 100%;
-    padding: 0px;
+    max-width: 30%;
+    padding: 0 5% 0 0;
   }
   #myIntro {
     font-size: 24px;
@@ -443,7 +443,7 @@ img {
     margin-bottom: 40px;
   }
   .tag {
-      margin: 0 5px 0 0;
+      margin: 0 0px 10 0;
   }
   .respondents p {
     text-align: center;
@@ -466,6 +466,7 @@ img {
     flex: 100%;
     max-width: 100%;
   }
+
 
 }
 
