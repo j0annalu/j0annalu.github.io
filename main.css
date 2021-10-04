@@ -166,7 +166,7 @@ body {
 
 .image-shadow{
   box-shadow: 5px 5px 5px rgb(220, 220, 220, .07);
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .protoRow {
